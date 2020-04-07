@@ -1,0 +1,1 @@
+lerna publish --registry=https://nexus.soma.salesforce.com/nexus/content/repositories/npmjs-internal/
