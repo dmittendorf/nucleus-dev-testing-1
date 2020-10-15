@@ -1,0 +1,5 @@
+steps:
+  npm-commit-version-bump:
+    skip: true
+  mvn-commit-version-bump:
+    skip: true
