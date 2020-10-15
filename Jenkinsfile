@@ -35,7 +35,6 @@ def doBuild() {
             npmInit([nexusCredsId: 'sfci-nexus'])
 
             sh 'yarn install'
-            sh 'yarn build'
         } catch (e) {
             error 'Build failed.'
         }
