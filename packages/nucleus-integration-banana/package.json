@@ -1,6 +1,6 @@
 {
   "name": "nucleus-integration-banana",
-  "version": "0.0.9",
+  "version": "0.10.0",
   "description": "Nucleus Integration dependency",
   "main": "src/index.js",
   "files": [
