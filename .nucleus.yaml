@@ -1,2 +1,6 @@
 core-deploy:
   enabled: true
+steps:
+  npm-configure-for-publish:
+    params:
+      registry-url: http://example.com
