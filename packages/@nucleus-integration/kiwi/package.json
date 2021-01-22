@@ -1,6 +1,6 @@
 {
   "name": "@nucleus-integration/kiwi",
-  "version": "0.10.0",
+  "version": "0.0.13",
   "description": "Nucleus Integration Tests - Kiwi",
   "main": "src/index.js",
   "scripts": {
