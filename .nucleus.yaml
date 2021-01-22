@@ -1,2 +1,3 @@
 core-deploy:
   enabled: true
+  auto-deploy: true
