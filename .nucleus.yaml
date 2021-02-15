@@ -9,7 +9,7 @@ steps:
       coverage-config:
         tool-name: clover
         gus-team-name: "UI Platform Engineering Systems"
-        test-suite: aggregated
+        test-suite: aggregate
         language-type: javascript
         aggregate-team-coverage: true
         dev-gus-upload: false
