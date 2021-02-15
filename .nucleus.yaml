@@ -1,6 +1,9 @@
 core-deploy:
   enabled: true
 steps:  
+  node-pre-release-tests:
+    node:
+      command: test {coverage}
   populate-test-coverage-to-gus:
     params:
       coverage-config:
