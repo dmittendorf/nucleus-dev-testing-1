@@ -1,6 +1,6 @@
 {
   "name": "@nucleus-integration/lemon",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "description": "Nucleus Integration Tests - Lemon",
   "main": "src/index.js",
   "scripts": {
