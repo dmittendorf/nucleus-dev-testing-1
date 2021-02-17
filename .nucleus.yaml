@@ -1,3 +1,18 @@
 core-deploy:
   enabled: true
   auto-deploy: true
+steps:  
+  node-pre-release-tests:
+    node:
+      command: test {coverage}
+  populate-test-coverage-to-gus:
+    params:
+      coverage-config:
+        tool-name: clover
+        gus-team-name: "UI Platform Engineering Systems"
+        test-suite: aggregate
+        language-type: javascript
+        aggregate-team-coverage: true
+        dev-gus-upload: false
+        gus-record-active: true
+        report-location: "coverage/clover.xml"
