@@ -1,7 +1,6 @@
 core-deploy:
   enabled: true
-  auto-deploy: true
-steps:  
+steps:
   node-pre-release-tests:
     node:
       command: test {coverage}

@@ -1,18 +1,33 @@
 {
-  "name": "nucleus-integration-js-fruit-dependencies",
+  "name": "nucleus-oss-testing",
   "private": true,
   "description": "Nucleus Integration Fruit Dependencies",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "clean": "rm -rf ./build && rm -rf node_modules",
+    "test": "jest",
+    "build": "rm -rf ./build && rollup -c rollup.config.js"
   },
   "workspaces": [
-    "packages/@nucleus-integration/*",
-    "packages/nucleus-integration-banana"
+    "packages/@nucleus-oss-testing/*",
+    "packages/nucleus-oss-testing-banana"
   ],
   "license": "MIT",
   "devDependencies": {
     "lerna": "^3.20.2",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "rollup": "^2.39.0"
+  },
+  "lwc": {
+    "modules": [
+      {
+        "dir": "build"
+      }
+    ],
+    "expose": [
+      "@nucleus-oss-testing/kiwi",
+      "@nucleus-oss-testing/lemon",
+      "nucleus-oss-testing-banana"
+    ]
   }
 }
