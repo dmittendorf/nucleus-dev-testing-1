@@ -1,5 +1,6 @@
 core-deploy:
   enabled: true
+  use-core-packager: true
 steps:
   node-pre-release-tests:
     node:
