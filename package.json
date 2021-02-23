@@ -4,7 +4,8 @@
   "description": "Nucleus Integration Fruit Dependencies",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rm -rf ./build && rollup -c rollup.config.js"
   },
   "workspaces": [
     "packages/@nucleus-integration/*",
@@ -13,6 +14,20 @@
   "license": "MIT",
   "devDependencies": {
     "lerna": "^3.20.2",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "rollup": "^2.39.0",
+    "@rollup/plugin-node-resolve": "^11.2.0"
+  },
+  "lwc": {
+    "modules": [
+      {
+        "dir": "build"
+      }
+    ],
+    "expose": [
+      "@nucleus-integration/kiwi",
+      "@nucleus-integration/lemon",
+      "nucleus-integration-banana"
+    ]
   }
 }
