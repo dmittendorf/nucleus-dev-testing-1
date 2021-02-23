@@ -4,6 +4,7 @@
   "description": "Nucleus Integration Fruit Dependencies",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf ./build && rm -rf node_modules",
     "test": "jest",
     "build": "rm -rf ./build && rollup -c rollup.config.js"
   },
@@ -24,9 +25,9 @@
       }
     ],
     "expose": [
-      "@nucleus-integration/kiwi",
-      "@nucleus-integration/lemon",
-      "nucleus-integration-banana"
+      "@nucleus-oss-testing/kiwi",
+      "@nucleus-oss-testing/lemon",
+      "nucleus-oss-testing-banana"
     ]
   }
 }
