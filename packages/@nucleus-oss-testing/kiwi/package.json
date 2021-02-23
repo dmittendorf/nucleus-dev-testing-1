@@ -1,5 +1,5 @@
 {
-  "name": "@nucleus-integration/kiwi",
+  "name": "@nucleus-oss-testing/kiwi",
   "version": "0.0.28",
   "description": "Nucleus Integration Tests - Kiwi",
   "main": "src/index.js",

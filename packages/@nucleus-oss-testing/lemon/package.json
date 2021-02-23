@@ -1,5 +1,5 @@
 {
-  "name": "@nucleus-integration/lemon",
+  "name": "@nucleus-oss-testing/lemon",
   "version": "0.0.28",
   "description": "Nucleus Integration Tests - Lemon",
   "main": "src/index.js",
