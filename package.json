@@ -1,5 +1,5 @@
 {
-  "name": "nucleus-integration-js-fruit-dependencies",
+  "name": "nucleus-oss-testing",
   "private": true,
   "description": "Nucleus Integration Fruit Dependencies",
   "main": "index.js",
@@ -9,8 +9,8 @@
     "build": "rm -rf ./build && rollup -c rollup.config.js"
   },
   "workspaces": [
-    "packages/@nucleus-integration/*",
-    "packages/nucleus-integration-banana"
+    "packages/@nucleus-oss-testing/*",
+    "packages/nucleus-oss-testing-banana"
   ],
   "license": "MIT",
   "devDependencies": {
