@@ -1,5 +1,4 @@
 export default [
-
     {
         input: './packages/@nucleus-integration/kiwi/src/index.js',
         output: {
