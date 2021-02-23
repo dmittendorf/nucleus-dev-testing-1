@@ -1,5 +1,5 @@
 const mainEntry = require('../index');
-const PKG_NAME = 'nucleus-integration-banana';
+const PKG_NAME = 'nucleus-oss-testing-banana';
 
 describe('simple unit testing', () => {
     it('should return version', () => {

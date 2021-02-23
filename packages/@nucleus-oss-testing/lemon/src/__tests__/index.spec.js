@@ -1,5 +1,5 @@
 const mainEntry = require('../index');
-const PKG_NAME = '@nucleus-integration/kiwi';
+const PKG_NAME = '@nucleus-oss-testing/lemon';
 
 describe('simple unit testing', () => {
     it('should return version', () => {
@@ -22,7 +22,6 @@ describe('simple unit testing', () => {
 
 describe('simple fruit testing', () => {
     it('should implement getPackageFruit', () => {
-        const expectedPkgFruit = PKG_NAME.split('/').pop();
         expect(mainEntry.getPackageFruit).toBeDefined();
     });
 });
