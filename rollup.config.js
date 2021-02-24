@@ -2,21 +2,21 @@ export default [
     {
         input: './packages/@nucleus-oss-testing/kiwi/src/index.js',
         output: {
-            file: './build/@nucleus-oss-testing/kiwi/index.js',
+            file: './build/nucleusTesting/kiwi/index.js',
             format: 'iife',
         }
     },
     {
         input: './packages/@nucleus-oss-testing/lemon/src/index.js',
         output: {
-            file: './build/@nucleus-oss-testing/lemon/index.js',
+            file: './build/nucleusTesting/lemon/index.js',
             format: 'iife',
         }
     },
     {
         input: './packages/nucleus-oss-testing-banana/src/index.js',
         output: {
-            file: './build/@nucleus-oss-testing-banana/index.js',
+            file: './build/nucleusTesting/banana/index.js',
             format: 'iife',
         }
     },

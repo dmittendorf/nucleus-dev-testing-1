@@ -25,9 +25,9 @@
       }
     ],
     "expose": [
-      "@nucleus-oss-testing/kiwi",
-      "@nucleus-oss-testing/lemon",
-      "nucleus-oss-testing-banana"
+      "nucleusTesting/kiwi",
+      "nucleusTesting/lemon",
+      "nucleusTesting/banana"
     ]
   }
 }
