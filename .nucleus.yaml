@@ -1,6 +1,8 @@
 core-deploy:
   enabled: true
   use-core-packager: true
+  project-modules:
+    nucleus-oss-testing: nucleus-oss-testing.version
 steps:
   node-pre-release-tests:
     node:
