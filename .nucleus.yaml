@@ -1,8 +1,6 @@
 core-deploy:
   enabled: true
   use-core-packager: true
-  project-modules:
-    nucleus-oss-testing: nucleus-oss-testing.version
 steps:
   node-pre-release-tests:
     node:
@@ -24,3 +22,8 @@ steps:
       artifact-id: nucleus-oss-testing
       component-locator-class-prefix: Nucleus
       artifact-name: "Nucleus OSS core deploy testing"
+  submit-artifact-to-precheckin:
+    params:
+      project-modules:
+        nucleus-oss-testing: nucleus-oss-testing.version
+      
