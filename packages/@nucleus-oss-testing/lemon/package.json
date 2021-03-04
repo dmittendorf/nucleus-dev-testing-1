@@ -1,6 +1,6 @@
 {
   "name": "@nucleus-oss-testing/lemon",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "Nucleus Integration Tests - Lemon",
   "main": "src/index.js",
   "scripts": {
