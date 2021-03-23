@@ -16,9 +16,3 @@ steps:
         dev-gus-upload: false
         gus-record-active: true
         report-location: "coverage/clover.xml"
-  core-packager:
-    params:
-      package-namespace: org.lwc
-      artifact-id: nucleus-oss-testing
-      component-locator-class-prefix: Nucleus
-      artifact-name: "Nucleus OSS core deploy testing"
