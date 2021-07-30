@@ -18,5 +18,5 @@ steps:
         report-location: "coverage/clover.xml"
   core-packager:
     params:
-      exec-npm-package: @uiplatform/nucleus-core-packager-tmp
+      exec-npm-package: "@uiplatform/nucleus-core-packager-tmp"
 
