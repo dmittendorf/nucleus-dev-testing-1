@@ -1,0 +1,13 @@
+{
+    "packageNamespace": "org.nucleus",
+    "mavenPackageNamespace": "sfdc.ui",
+    "utamPackageNamespace": "utam.nucleus",
+    "componentLocatorClassPrefix": "Nucleus",
+    "artifactId": "nucleus-dev-testing",
+    "artifactName": "Nucleus OSS Testing Modules",
+    "lwcFilter": [
+        "**/__tests__/**",
+        "**/__benchmarks__/**"
+    ],
+    "version": "0.1.0-SNAPSHOT"
+}
