@@ -1,6 +1,8 @@
 core-deploy:
   enabled: true
   use-core-packager: true
+  project-modules:
+    nucleus-dev-testing: nucleus-dev-testing.version
 steps:
   node-pre-release-tests:
     node:
@@ -19,4 +21,3 @@ steps:
   core-packager:
     params:
       exec-npm-package: "@uiplatform/nucleus-core-packager-tmp"
-
