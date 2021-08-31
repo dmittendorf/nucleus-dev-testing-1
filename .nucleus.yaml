@@ -21,3 +21,10 @@ steps:
   core-packager:
     params:
       exec-npm-package: "@uiplatform/nucleus-core-packager-tmp"
+      
+notifications:
+  slack:
+    channel: engineering-systems-builds
+    triggers: 
+      - test-stage-success
+      - test-stage-failed
