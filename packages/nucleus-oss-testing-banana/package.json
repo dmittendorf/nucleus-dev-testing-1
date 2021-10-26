@@ -1,6 +1,6 @@
 {
   "name": "nucleus-oss-testing-banana",
-  "version": "0.15.3",
+  "version": "0.15.5",
   "description": "Nucleus Integration dependency",
   "main": "src/index.js",
   "files": [
