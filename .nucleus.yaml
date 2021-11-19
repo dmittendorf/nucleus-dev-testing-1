@@ -28,3 +28,4 @@ notifications:
     triggers: 
       - test-stage-success
       - test-stage-failed
+
